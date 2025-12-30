@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Omodara Dabiri — IT Student</title>
+    <meta name="description" content="Omodara Dabiri — Information Technology student (Software Development, Cybersecurity, Networking)">
+    <style>
+      :root{
+        --bg:#f7fbfe;--card:#fff;--accent:#1366cc;--muted:#667085;--text:#0f1724
+      }
+      *{box-sizing:border-box}
+      body{font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);margin:0}
+      .site{max-width:880px;margin:36px auto;padding:20px}
+
+      .card{background:var(--card);border-radius:12px;padding:28px;border:1px solid #e6eef9}
+      header.hero{display:flex;flex-direction:column;align-items:center;gap:16px;text-align:center;padding:36px 20px;margin-bottom:20px}
+
+      .profile{
+        width:160px;height:160px;border-radius:50%;overflow:hidden;border:6px solid rgba(19,102,204,0.12);display:inline-block;background:#f0f4ff;position:relative
+      }
+      .profile img{width:100%;height:100%;object-fit:cover;display:block}
+      h1{font-size:28px;margin:6px 0}
+      .role{color:var(--muted);font-size:15px}
+
+      .section{margin-top:22px}
+      .section h2{font-size:20px;margin-bottom:12px}
+      p.lead{color:var(--muted);line-height:1.65}
+
+      .skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+      .skill{background:linear-gradient(90deg,var(--accent),#6b46c1);color:white;padding:8px 12px;border-radius:999px;font-weight:600;font-size:13px}
+
+      .contact{display:flex;gap:12px;align-items:center;margin-top:10px}
+      .email{background:#f1f7ff;padding:10px 14px;border-radius:8px;color:var(--muted);font-weight:600}
+
+      footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
+
+      @media(max-width:640px){.site{padding:12px}.profile{width:120px;height:120px}h1{font-size:22px}}
+    </style>
+  </head>
+  <body>
+    <main class="site">
+      <div class="card">
+        <header class="hero">
+          <div class="profile">
+            <!-- Save the image you pasted earlier as profile.jpg in this folder -->
+            <img src="profile.jpg" alt="Omodara Dabiri" onerror="this.style.display='none'">
+          </div>
+          <h1>Omodara Dabiri</h1>
+          <div class="role">Information Technology student — Software development · Cybersecurity · Networking</div>
+        </header>
+
+        <section id="about" class="section">
+          <h2>About</h2>
+          <p class="lead">I enjoy building efficient, reliable systems and continuously expanding my technical skill set. Driven by curiosity and a passion for problem solving, I aim to apply my knowledge to real world challenges while growing as a technology professional.</p>
+        </section>
+
+        <section id="skills" class="section">
+          <h2>Skills</h2>
+          <div class="skills">
+            <div class="skill">Software Development</div>
+            <div class="skill">Cybersecurity</div>
+            <div class="skill">Networking</div>
+            <div class="skill">Linux</div>
+            <div class="skill">HTML &amp; CSS</div>
+          </div>
+        </section>
+
+        <section id="contact" class="section">
+          <h2>Contact</h2>
+          <div class="contact">
+            <div class="email">daradabiri177@gmail.com</div>
+            <a href="mailto:daradabiri177@gmail.com">Send email</a>
+          </div>
+        </section>
+      </div>
+
+      <footer>
+        &copy; 2025 Omodara Dabiri
+      </footer>
+    </main>
+  </body>
+</html>
